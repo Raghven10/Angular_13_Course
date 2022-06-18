@@ -1,0 +1,21 @@
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+}
+
+#carouselExampleControls {
+    width: 1200px;
+    height: 455px;
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid rebeccapurple;
+}
+
+#schedule{
+
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: aquamarine;
+    opacity: 80%;
+    display: none;    
+}
