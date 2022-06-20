@@ -15,7 +15,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" id="head">
         <a class="navbar-brand" href="#">Angular 13 Course</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" onclick="showJumbo()">Course Content</a>
+                    <a class="nav-link" href="#schedule" onclick="showJumbo()">Course Content</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -36,10 +36,10 @@
                         Courses
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">HTML & CSS</a>
-                        <a class="dropdown-item" href="#">JavaScript</a>
+                        <a class="dropdown-item" href="#overview">HTML & CSS</a>
+                        <a class="dropdown-item" href="#overview">JavaScript</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">AI/ML</a>
+                        <a class="dropdown-item" href="#"> AI/ML</a>
                     </div>
                 </li>
                 <!-- <li class="nav-item">
@@ -57,13 +57,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://source.unsplash.com/1200x450/?nature,water" class="d-block w-100" alt="...">
+                <img src="https://source.unsplash.com/1200x450/?computer,website" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://source.unsplash.com/1200x450/?nature,water" class="d-block w-100" alt="...">
+                <img src="https://source.unsplash.com/1200x450/?office,work" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://source.unsplash.com/1200x450/?nature,water" class="d-block w-100" alt="...">
+                <img src="https://source.unsplash.com/1200x450/?science,hack" class="d-block w-100" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -83,6 +83,7 @@
             <table class="table table-striped">
                 <thead>
                     <tr>
+                        <th>Day</th>
                         <th>Date</th>
                         <th>Topic</th>
                         <th>Links to attend</th>
@@ -90,14 +91,218 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Date</td>
-                        <td>Topic</td>
+                        <td>1</td>
+                        <td>12.06.2022</td>
+                        <td>Basics of HTML</td>
                         <td>Links to attend</td>
                     </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>13.06.2022</td>
+                        <td>Basics of CSS and Bootstrap</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>14.06.2022</td>
+                        <td>Intro and installation of Node.js and Angular CLI</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>15.06.2022</td>
+                        <td>Basics of JS and intro to TypeScript</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>16.06.2022</td>
+                        <td>TypeScript in detail</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>17.06.2022</td>
+                        <td>Intro to Git and setting up web developer enviroment</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>18.06.2022</td>
+                        <td>First Project and Assignment</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>19.06.2022</td>
+                        <td>Components</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>20.06.2022</td>
+                        <td>Interpolation and Bindings(class/Event/Property/Style)</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>21.06.2022</td>
+                        <td>Templates</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>22.06.2022</td>
+                        <td>Directives</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>23.06.2022</td>
+                        <td>Component Interaction</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>24.06.2022</td>
+                        <td>Pipes</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>25.06.2022</td>
+                        <td>Second Project and Assignment</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>26.06.2022</td>
+                        <td>Services</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>27.06.2022</td>
+                        <td>Dependency Injection</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>28.06.2022</td>
+                        <td>Http and Observables</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>29.06.2022</td>
+                        <td>Routing and Navigation</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>30.06.2022</td>
+                        <td>Child Routing</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>01.07.2022</td>
+                        <td>Relative navigation and Redirecting Routes</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>02.07.2022</td>
+                        <td>Third project and Assignment</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>03.07.2022</td>
+                        <td>Angular Forms</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td>04.07.2022</td>
+                        <td>Forms validation</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td>05.07.2022</td>
+                        <td>Form model and Controls</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>06.07.2022</td>
+                        <td>Angular CRUD Operation</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>07.07.2022</td>
+                        <td>Connecting with rest APIs</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>27</td>
+                        <td>08.07.2022</td>
+                        <td>Deploymnt using Git and Heroku</td>
+                        <td>Links to attend</td>
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td>09.07.2022</td>
+                        <td>Final project and Assignment</td>
+                        <td>Links to attend</td>
+                    </tr>
+
                 </tbody>
 
             </table>
         </div>
+    </div>
+
+    <!-- Three columns of text below the carousel -->
+    <br><br>
+    <div class="row" id="overview">
+        <div class="col-lg-4">
+            <br>
+            <img class="rounded-circle"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.OY2AdoRFHEB70SRowaKrIgHaIE%26pid%3DApi&f=1"
+                alt="Generic placeholder image" width="140" height="140">
+            <h2>HTML & CSS</h2>
+            <p>The HyperText Markup Language is the standard markup language for documents designed to be displayed in a
+                web browser. It can be assisted by CSS and scripting languages.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <br>
+            <img class="rounded-circle"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.PHBTJoshbg880IH9z_PB6QHaHa%26pid%3DApi&f=1"
+                alt="Generic placeholder image" width="140" height="140">
+            <h2>JavaScript</h2>
+            <p>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the
+                World Wide Web, alongside HTML and CSS.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <br>
+            <img class="rounded-circle"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.sqYnVuoOriQcDwoMnJdQBQHaHa%26pid%3DApi&f=1"
+                alt="Generic placeholder image" width="140" height="140">
+            <h2>Angular</h2>
+            <p>Angular is a TypeScript-based free and open-source web application framework led by the Angular Team at
+                Google and by a community of individuals and corporations.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <br><br>
+    </div><!-- /.row -->
+
+    <div class="fixed-bottom bg-dark" id="footer">
+        <p>Copyright@2022 All rights reserved</p>
     </div>
 
     <!-- Optional JavaScript -->
