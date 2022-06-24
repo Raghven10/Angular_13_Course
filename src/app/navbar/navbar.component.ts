@@ -13,4 +13,11 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
+
+  showJumbo(){
+
+    alert('Clicked!!')
+  }
+
 }
